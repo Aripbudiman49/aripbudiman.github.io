@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html><head> 
+    
+    <title>Hitung Diskon</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="box">
+        <h1>Kalkulator Diskon</h1>
+        <div class="content">
+
+    <div class="input">
+        <form name="hitungdiskon">
+        <label for="harga"><b>Harga Barang(Rp)</b></label>
+        <input type="number" name="harga" ></input>
+    </div>
+    <div class="input">
+        <label for="diskon"><b>Diskon(%)</b></label>
+        <input type="number" name="diskon"  size="3" ></input>%
+    </div>
+    <div class="input">
+        <label for="pajak"><b>Pajak(%)</b></label>
+        <input type="number" name="pajak"  size="3"></input>%<br>
+    </div>
+        <button type="button" id="calculate" onclick="hitung() " value="proses"><b>Hitung Diskon</b></button>
+        <button type="reset" id="calculate1"><b>Reset</b></button><br>
+    <div class="input1">
+    <div class="result1">
+        <label for="hasildiskonpajak" ><b>Total Bayar</b></label>
+        <input type="Total Diskon" name="hasildiskondanpajak" id="result" disabled></input>
+    </div>
+    </div>
+    <div class="input2">
+        <div class="result2">
+            <label for=hasiltotalhemat ><b>Total Hemat</b></label>
+            <input type="Total hemat" name="hasilhemat"  id="result" disabled></input>
+        </div>
+    </div>
+    </form>
+    </div>
+</div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
